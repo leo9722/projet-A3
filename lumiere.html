@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="temperature.css">
+	</head> 
+	
+	<body>
+		<h1> Menu Principal </h1>
+		<input type="button" value="temperature" href="temperature.html">
+		<input type="button" value="Lumière" href="lumiere.html">
+		<input type="button" value="Tableau de Bord "> <br>
+
+	<div id="tab">
+
+		<form method="POST">
+		<table border="1px">
+			<thead align="center">Gestion de la lumière  </thead>
+		    <tbody>
+    			
+    			<tr>
+    				<td rowspan="9" > <img src="img/clignotant.gif"></td>
+    				<td>Choix du capteur </td>
+    				<td>:</td>
+    				<td>
+    					<select>
+    						<option>lum1</option>
+    						<option>lum2</option>
+    						<option>lum3</option>
+    						<option>lum4</option>
+    						
+    					</select>
+    				
+    				<td rowspan="2" colspan="2"> <img src="img/lum_gif.gif"></td>
+
+    			</tr>
+    			<tr>
+    				<td>Choisir une valeur</td>
+    				<td>:</td>
+    				<td>
+    					<input type="range">
+    				</td>
+    			
+    				
+    			</tr>
+    			</tr>
+    			<tr>
+    				<td>Maison</td>
+    				<td>:</td>
+    				<td> <input type="radio" name="A"> A
+    					<input type="radio" name="B"> B
+    					<input type="radio" name="C"> C
+    					<input type="radio" name="D"> D
+    				</td>
+    				<td></td>
+    				<td></td>
+    				
+    				
+    				
+    				
+    			</tr>
+
+    			<tr>
+    				<td>Mode d'activation</td>
+    				<td>:</td>
+    				<td> <input type="checkbox" name="activation"> ON</td>
+    				<td></td>
+    				<td></td>
+    				
+    				
+    			</tr>
+
+    			<tr>
+    				<td>Mot de passe *</td>
+    				<td>:</td>
+    				<td>
+    					<input type="text" name="pass" placeholder="mdp">
+    				</td>
+    				<td></td>
+    				<td></td>
+    			
+    				
+    			</tr>
+
+    			<tr>
+    				<td>Envoyer</td>
+    				<td>:</td>
+    				<td colspan="3">
+    					<input type="submit" name="envoyer" value="soumettre">
+    				</td>
+
+    				</tr>
+    				<tr>
+    					<td>Effacer</td>
+    					<td>:</td>
+    					<td>
+    					<input type="submit" name="reinitialiser" value="reinitialiser">
+    					</td>
+    				</tr>
+
+    			</tr>
+
+    			<tr>
+    				<td colspan="7"></td>
+    			</tr>
+
+    			<tr>
+    				<td colspan="7">* : 4 chiffres numériques au maximum</td>
+    			</tr>
+			</tbody>
+		</table>
+		</form>
+	</div>
+		<img src="img/logo_isen.jpg">
+	</body>
+</html>
+
+	
+	

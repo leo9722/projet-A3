@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="temperature.css">
+		<title>Temperature</title>
+	</head> 
+	
+	<body>
+		<h1> Menu Principal </h1>
+		<input type="button" value="temperature">
+		<input type="button" value="Lumière">
+		<input type="button" value="Tableau de Bord "> <br>
+
+	<div id="tab">
+
+		<form method="GET">
+
+		<table border="1px">
+			<thead align="center">Gestion de la temperature  </thead>
+		    <tbody>
+    			
+    			<tr>
+    				<td rowspan="7"> <img src="img/temp_gif.gif"></td>
+    				<td>Choix du capteur </td>
+    				<td>:</td>
+    				<td>
+    					<select>
+    						<option>temp1</option>
+    						<option>temp2</option>
+    						<option>temp3</option>
+    						<option>temp4</option>
+    						
+    					</select>
+    				
+    				<td> Valeur minimal : </td>
+    				<td> <input type="text" name="valmin" placeholder="min"></td>
+    				<td> Valeur maximal : </td>
+    				<td> <input type="text" name="valmax" placeholder="max"></td>
+
+    			</tr>
+    			<tr>
+    				<td>Untité</td>
+    				<td>:</td>
+    				<td>
+    					<input type="radio" name="degree" value="degree">
+    					<label for="degree">C°</label>
+    				</td>
+    				<td > ou </td>
+    				<td>
+    					<input type="radio" name="fra" value="fara">
+    					<label for="fara">°F</label>
+    				</td>
+    				<td></td>
+    				<td></td>
+    				
+    			</tr>
+    			</tr>
+    			<tr>
+    				<td>Activation</td>
+    				<td>:</td>
+    				<td> <input type="checkbox" name="activation"></td>
+    				<td></td>
+    				<td></td>
+    				<td></td>
+    				<td></td>
+    				
+    			</tr>
+
+    			<tr>
+    				<td>Mot de passe *</td>
+    				<td>:</td>
+    				<td>
+    					<input type="text" name="pass" placeholder="mdp">
+    				</td>
+    				<td></td>
+    				<td></td>
+    				<td></td>
+    				<td></td>
+    				
+    			</tr>
+
+    			<tr>
+    				<td>Envoyer/Effecer des données</td>
+    				<td>:</td>
+    				<td colspan="3">
+    					<input type="submit" name="envoyer" value="soumettre">
+    				</td>
+
+    				<td colspan="2">
+    					<input type="submit" name="reinitialiser" value="reinitialiser">
+    				</td>
+
+    			</tr>
+
+    			<tr>
+    				<td colspan="7"></td>
+    			</tr>
+
+    			<tr>
+    				<td colspan="8">* : 4 chiffres numériques au maximum</td>
+    			</tr>
+			</tbody>
+		</table>
+	</form>
+	</div>
+		<img src="img/logo_isen.jpg">
+	</body>
+</html>
+
+	
+	
